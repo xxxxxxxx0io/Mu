@@ -1,7 +1,7 @@
 {
-    "name": "Og Music Bot",
+    "name": "ZE Music Bot",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/8ccfcc2a93fcf70097748.jpg",
+    "logo": "https://telegra.ph/file/dd6c46b812395a1b607e9.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "10075162",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "0d9ba711d02c4265b8cd30c8ca7c08a1",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,12 +34,12 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters",
-        "value": "𝙋𝘼𝙉𝙅𝘼𝘽 ✘ 𝙈𝙐𝙎𝙄𝘾",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6061809727",
+        "value": "",
         "required": true
       },
       "STRING_SESSION": {
