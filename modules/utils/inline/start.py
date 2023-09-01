@@ -21,11 +21,11 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/OGsNetwork",
+                url=f"https://t.me/UI_XB",
             ),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/ogsupportchatt",
+                url=f"https://t.me/UI_OS",
             )
         ],
         [
@@ -48,10 +48,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/OGsNetwork"),
+                url=f"https://t.me/UI_XB"),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/ogsupportchatt")
+                url=f"https://t.me/UI_OS")
         ],
         [
             InlineKeyboardButton(
