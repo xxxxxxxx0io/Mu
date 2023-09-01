@@ -25,7 +25,7 @@ async def resume_com(cli, message: Message, _, chat_id):
     if not len(message.command) == 1:
         return await message.reply_text("**❌ 𝐄𝐫𝐫𝐨𝐫, 𝐖𝐫𝐨𝐧𝐠 𝐔𝐬𝐚𝐠𝐞 𝐎𝐟 𝐂𝐨𝐦𝐦𝐚𝐧𝐝❗...**")
     if await is_music_playing(chat_id):
-        return await message.reply_text("**🔊 Oɢ Mᴜsɪᴄ Aʟʀᴇᴀᴅʏ Pʟᴀʏɪɴɢ ✨ ...**")
+        return await message.reply_text("**🔊 Ze Mᴜsɪᴄ Aʟʀᴇᴀᴅʏ Pʟᴀʏɪɴɢ ✨ ...**")
     await music_on(chat_id)
     await Aditya.resume_stream(chat_id)
     await message.reply_text(
