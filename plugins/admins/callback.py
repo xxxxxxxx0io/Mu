@@ -273,7 +273,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             img = await gen_thumb(videoid)
             run = await CallbackQuery.message.reply_photo(
                 photo=img,
-                caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+                caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 ZE 🥀 ...**".format(
                     user,
                     f"https://t.me/{app.username}?start=info_{videoid}",
                 ),
@@ -305,7 +305,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             img = await gen_thumb(videoid)
             run = await CallbackQuery.message.reply_photo(
                 photo=img,
-                caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+                caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 ZE 🥀 ...**".format(
                     user,
                     f"https://t.me/{app.username}?start=info_{videoid}",
                 ),
@@ -327,7 +327,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             button = telegram_markup(_, chat_id)
             run = await CallbackQuery.message.reply_photo(
                 photo=STREAM_IMG_URL,
-                caption="**💥❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(user),
+                caption="**💥❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 ZE 🥀 ...**".format(user),
                 reply_markup=InlineKeyboardMarkup(button),
             )
             db[chat_id][0]["mystic"] = run
@@ -371,7 +371,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                 img = await gen_thumb(videoid)
                 run = await CallbackQuery.message.reply_photo(
                     photo=img,
-                    caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+                    caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 ZE 🥀 ...**".format(
                         user,
                         f"https://t.me/{app.username}?start=info_{videoid}",
                     ),
