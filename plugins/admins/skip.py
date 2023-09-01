@@ -120,7 +120,7 @@ async def skip(cli, message: Message, _, chat_id):
         img = await gen_thumb(videoid)
         run = await message.reply_photo(
             photo=img,
-            caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+            caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐙𝐄 🥀 ...**".format(
                 user,
                 f"https://t.me/{app.username}?start=info_{videoid}",
             ),
@@ -149,7 +149,7 @@ async def skip(cli, message: Message, _, chat_id):
         img = await gen_thumb(videoid)
         run = await message.reply_photo(
             photo=img,
-            caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+            caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐙𝐄 🥀 ...**".format(
                 user,
                 f"https://t.me/{app.username}?start=info_{videoid}",
             ),
@@ -166,7 +166,7 @@ async def skip(cli, message: Message, _, chat_id):
         button = telegram_markup(_, chat_id)
         run = await message.reply_photo(
             photo=config.STREAM_IMG_URL,
-            caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(user),
+            caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐙𝐄 🥀 ...**".format(user),
             reply_markup=InlineKeyboardMarkup(button),
         )
         db[chat_id][0]["mystic"] = run
@@ -182,7 +182,7 @@ async def skip(cli, message: Message, _, chat_id):
                 photo=config.TELEGRAM_AUDIO_URL
                 if str(streamtype) == "audio"
                 else config.TELEGRAM_VIDEO_URL,
-                caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+                caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐙𝐄 🥀 ...**".format(
                     title, check[0]["dur"], user
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
@@ -195,7 +195,7 @@ async def skip(cli, message: Message, _, chat_id):
                 photo=config.SOUNCLOUD_IMG_URL
                 if str(streamtype) == "audio"
                 else config.TELEGRAM_VIDEO_URL,
-                caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+                caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐙𝐄 🥀 ...**".format(
                     title, check[0]["dur"], user
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
@@ -207,7 +207,7 @@ async def skip(cli, message: Message, _, chat_id):
             img = await gen_thumb(videoid)
             run = await message.reply_photo(
                 photo=img,
-                caption="**💥 ❰Oɢ✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(
+                caption="**💥 ❰Ze✘Pʟᴀʏᴇʀ❱ 💿 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐙𝐄 🥀 ...**".format(
                     user,
                     f"https://t.me/{app.username}?start=info_{videoid}",
                 ),
