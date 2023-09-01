@@ -14,12 +14,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/ogsupportchatt}"
+                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/UI_OS}"
             )
         ],
         [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -35,12 +35,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/ogsupportchatt}"
+                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/UI_OS}"
             )
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -59,12 +59,12 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/ogsupportchatt}"
+                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/UI_OS}"
             )
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -80,12 +80,12 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/ogsupportchatt}"
+                        "💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"{https://t.me/UI_OS}"
             )
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -142,7 +142,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -173,7 +173,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -219,7 +219,7 @@ def slider_markup(
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -269,7 +269,7 @@ def panel_markup_1(_, videoid, chat_id):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -317,7 +317,7 @@ def panel_markup_2(_, videoid, chat_id):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
@@ -367,7 +367,7 @@ def panel_markup_3(_, videoid, chat_id):
         ],
          [           
             InlineKeyboardButton(
-                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/OGsNetwork}"
+                text="💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💞", url=f"{https://t.me/UI_XB}"
             )
         ],
         [           
