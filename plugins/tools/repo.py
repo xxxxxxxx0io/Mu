@@ -1,8 +1,3 @@
-# Power By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
-
 from pyrogram import Client, filters
 
 from modules import app
@@ -11,35 +6,19 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @app.on_message(
-    filters.command("سورس")
+    filters.command("مودي")
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
-async def repo(client: Client, message: Message):
+async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/2514530559cc173845e3f.jpg",
-        caption=f"""🥀 [ωєℓcσмє τσ sσυяcє sєzαя︎🎸](https://t.me/UIU_II)\n\n[✘ ժᥱ᥎ zєiи ✘ 🎸](https://t.me/p_m_4)\n\n[✘ ժᥱ᥎ jσĸ  ✘🎸](https://t.me/G_O_OZ)""",
+        photo=f"https://telegra.ph/file/dd6c46b812395a1b607e9.jpg",
+        caption=f"""🥀 𐇮 𝑴𝑹𝑨𝑻 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮 @FC_SI 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🥀 sσυяcє sєzαя 🥀", url=f"https://t.me/UIU_II")
-            ],          
-            [
-                    InlineKeyboardButton(
-                        "🥀 زيـــــــٌن اݪــتأࢪيخ 🚸 🥀", url=f"https://t.me/p_m_4")
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🥀 ⧛ َ𝗝َ َ𝗢َ ٍ𝗞َ ׀ مــ ـٰٖمـوِٰلٰ ׀ جـِوڪَ ׀ ⧚ 🥀", url=f"https://t.me/G_O_OZ"
-                    ),
-                    InlineKeyboardButton(
-                        "🥀 جروب آلدعمـ 🥀", url=f"https://t.me/SORS0C")
+                        "🥀 𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮 🚸 🥀", url=f"https://t.me/UP_UO")
                 ]
             ]
         ),
-    ) 
-
-# Power By @BikashHalder & @AdityaHalder 
-# Join @BikashGadgetsTech For More Update
-# Join @AdityaCheats For Hack
-# Join Our Chats @Bgt_Chat & @Adityadiscus 
+    )
